@@ -39,9 +39,10 @@ export default class Workandresearch extends Component {
                       </div>
                       <div className="workandresearch-label">
                         <h2>Injured Military Veteran Adaptive Sport and Paralympic Soccer Program Development <span>Jan 2018-Present</span></h2>
-                        <p> <a href="http://clemsonparalympicsoccer.org/" target="_blank" rel="noreferrer">Clemson Paralympic Soccer</a>
-                          
-                         #</p>
+                        <p> I have been a part of <a href="http://clemsonparalympicsoccer.org/" target="_blank" rel="noopener noreferrer"> Clemson Paralympic Soccer </a> for most of my time at Clemson, where the focus is on both introducing injured military veterans to adaptive sports as well as working directly with the US Paralympic Soccer Team.<br></br>
+                        With the veterans, we are on our 5th year of a grant that provides us the ability to host 3-4 day camps throughout the year all over the nation that will bring in the veterans together.  In the camps, we have introduced adaptive sport to the veterans, gave them their grassroots soccer coaching license, and as of this year, mental health first aid certified as well. I have participated myself in over 5 camps now helping out with the veterans as well as doing research throughout the camp to collect data surrounding best practices, program evaluation and impact to further improve the program's efforts.<br></br>
+                        Another aspect of our program is directly help develop the US Paralympic Soccer Team in preparation for the 2028 Paralympic Games in Los Angeles.  We are working to start a paralympic soccer team here at Clemson, one of the first teams for a university.  We also work with the head coach of the US team to scout players throughout the country that could be potential candidates for both the Clemson team as well as the US team.<br></br>
+                        </p>
                       </div>
                     </div>
                   </article>
@@ -52,7 +53,7 @@ export default class Workandresearch extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Soccer Referee for US Soccer <span>Aug 2013-Present</span></h2>
+                        <h2>Soccer Referee for US Soccer Federation<span>Aug 2013-Present</span></h2>
                         <p>I have been a soccer referee since I was 13 years old. Since I played soccer at the time, it made sense to me to get into refereeing as well to be part of a different aspect of the game. Throughout my time as a referee, I have been in charge of player safety, enforcing the Laws of the Game, travelling across the country, as well as maintain my physical fitness to keep up with the ever increasing speed of play.  I've learned many life skills from being a referee from a young age such as person management, teamwork between my referee crew, as well as confidence from having to stick with my decision with at least the other team and parents disagreeing with me. </p>
                       </div>
                     </div>
