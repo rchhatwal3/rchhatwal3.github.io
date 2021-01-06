@@ -11,7 +11,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "homepage": "https://rchhatwal3.github.io/Website-Portfolio/"
-  
+  "background_color": "#ffffff"
 }
