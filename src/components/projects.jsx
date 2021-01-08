@@ -14,7 +14,7 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/project/reactlogo.png)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/project/reactlogo.jpg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/Website-Portfolio" target="_blank" ref="noopener noreferrer">This Website</a></h3>
@@ -27,7 +27,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/project/AstronautSpriteSheet210by93.png)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/project/AstronautSpriteSheet210by93.jpg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/2D-Game-using-SDL2.0" target="_blank" rel="noopener noreferrer">Moontian - Escape from the Planet</a></h3>
@@ -40,7 +40,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/project/ppmoutput.png)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/project/ppmoutput.jpg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/making-ppm-pics-using-shapes" target="_blank" rel="noopener noreferrer">Fun with PPM Images</a></h3>
@@ -53,7 +53,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/project/connectx.png)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/project/connectx.jpg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/ConnectX-Using-Java-Swing" target="_blank" rel="noopener noreferrer">ConnectX Game with GUI</a></h3>
@@ -66,7 +66,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/project/gbnprotocol.gif)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/project/gbnprotocol.jpg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="href=https://github.com/rchhatwal3/GBN-Protocol-Implementation" target="_blank" rel="noopener noreferrer">Go-Back-N Protocol Implementation</a></h3>
@@ -79,7 +79,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/project/simplexmethod.png)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/project/simplexmethod.jpg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/SimplexMethodCalculator" target="_blank" rel="noopener noreferrer">Simplex Method Calculator</a></h3>
