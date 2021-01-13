@@ -103,8 +103,8 @@ export default class Workandresearch extends Component {
                         <i className="icon-book2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Graduated High School <span>May 2017</span></h2>
-                        <p>I graduated from Brashier Middle College Charter High School while completing 45 college credit hours due to dual enrollment classes.
+                        <h2>Completed 45 hours of Dual Enrollment <span>May 2017</span></h2>
+                        <p>I graduated from Brashier Middle College Charter High School while completing 45 college credit hours due to dual enrollment classes.  I played varsity soccer all 4 years I was there and I graduated Summa Cum Laude.
                         </p>
                       </div>
                     </div>
