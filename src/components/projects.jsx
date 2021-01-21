@@ -31,7 +31,8 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/2D-Game-using-SDL2.0" target="_blank" rel="noopener noreferrer">Moontian - Escape from the Planet</a></h3>
-											<span>I made this as a final project for my 2-D game engine design class at Clemson. This game was made using C++ with the SDL 2.0 library and implemented game design aspects like sprite animation, UI, collision detection and response, and TTF fonts.</span>
+											<span>I made this as a final project for my 2-D game engine design class at Clemson. This game was made using C++ with the SDL 2.0 library and implemented 
+												game design aspects like sprite animation, UI, collision detection and response, and TTF fonts.</span>
 											<p className="icon">
 												<span><a href="https://github.com/rchhatwal3/2D-Game-using-SDL2.0" target="_blank" rel="noopener noreferrer"><i className="icon-share3" /></a></span>
 											</p>
@@ -44,7 +45,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/making-ppm-pics-using-shapes" target="_blank" rel="noopener noreferrer">Fun with PPM Images</a></h3>
-											<span>This project was made during my Introduction to C++ class. This project's goal was to create an overall PPM image from scratch using a text file. In the project, I created the ability to take in a text file containts the shape, coordinates, radius (for a circle), and color for the specific layer the user wanted to display on the PPM image. This was done using polymorphism and abstraction.</span>
+											<span>This project was made during my Introduction to C++ class. This project's goal was to create an overall PPM image from scratch using a text file. 
+												In the project, I created the ability to take in a text file containts the shape, coordinates, radius (for a circle), and color for the specific layer 
+												the user wanted to display on the PPM image. This was done using polymorphism and abstraction.</span>
 											<p className="icon">
 												<span><a href="https://github.com/rchhatwal3/making-ppm-pics-using-shapes" target="_blank" rel="noopener noreferrer"><i className="icon-share3" /></a></span>
 											</p>
@@ -83,7 +86,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="https://github.com/rchhatwal3/SimplexMethodCalculator" target="_blank" rel="noopener noreferrer">Simplex Method Calculator</a></h3>
-											<span>This project was part of my final project for my Linear Programming class. In this project, myself and my groupmate used C++ to create a solver for Simplex Mehtod problems where the A matrix, b vector, and cost vector are given. We also implemented Bland's Rule for anti-cycling to ensure the rare case of cycling never happens.</span>
+											<span>This project was part of my final project for my Linear Programming class. In this project, myself and my groupmate used C++ to create a solver for 
+												Simplex Method problems where the A matrix, b vector, and cost vector are given. We also implemented Bland's Rule for anti-cycling to ensure the 
+												rare case of cycling never happens.</span>
 											<p className="icon">
 												<span><a href="https://github.com/rchhatwal3/SimplexMethodCalculator" target="_blank" rel="noopener noreferrer"><i className="icon-share3" /></a></span>
 											</p>
