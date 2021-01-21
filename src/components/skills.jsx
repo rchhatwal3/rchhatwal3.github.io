@@ -40,7 +40,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Programming Languages</h3>
-                    <p>I have used and am familiar with C, C++, Python, Java, React.js, x86 Assembly, HTML5 and CSS.</p>
+                    <p>I have used and am familiar with Python, React.js, Git, Java, C++, R, C, HTML5, CSS, MATLAB, x86 Assembly.</p>
                 </div>
                 </div>
             </div>
