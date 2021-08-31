@@ -90,10 +90,10 @@ export default class Projects extends Component {
 						<div className="project" style={{backgroundImage: 'url(images/project/aws_logo.jpg)'}}>
 							<div className="desc">
 								<div className="con">
-									<h3><a href="http://admin.cumaker.space/" target="_blank" rel="noopener noreferrer">Simplex Method Calculator</a></h3>
+									<h3><a href="http://admin.cumaker.space/" target="_blank" rel="noopener noreferrer">Clemson Makerspace x AWS – Captstone Project</a></h3>
 									<span>Developed, designed, and integrated a sign-in and management system for the Clemson Makerspace into a single system for a fast and robust user experience.  
 										Built using AWS tools for the backend, with an Angular driven frontend and overseen by AWS software engineers. The tools that I worked directly with were AWS Lambda, 
-										DynamoDB, IoT Core, Cognito Pools, CloudFormation, and CDK, among others.</span>
+										DynamoDB, IoT Core, Cognito Pools, CloudFormation, and CDK.</span>
 									<p className="icon">
 										<span><a href="http://admin.cumaker.space/" target="_blank" rel="noopener noreferrer"><i className="icon-share3" /></a></span>
 									</p>
