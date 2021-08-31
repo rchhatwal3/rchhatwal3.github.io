@@ -12,7 +12,62 @@ export default class Skills extends Component {
             </div>
             </div>
             <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
+            
+            <div className="col-auto text-center animate-box">
+                <div className="services color-1">
+                <span className="icon">
+                </span>
+                <div className="desc">
+                    <h3>Programming Languages</h3>
+                    <p>I have used and am familiar with Python, C++, C, Git, Java, React.js, R, HTML5, CSS, MATLAB, x86 Assembly.</p>
+                </div>
+                </div>
+            </div>
+
+            <div className="col-auto text-center animate-box">
+                <div className="services color-1">
+                <span className="icon">
+                </span>
+                <div className="desc">
+                    <h3>Agile Methodologies </h3>
+                    <p>From my Capstone project, software engineering class, and my co-op, I have worked with Agile Methodologies in the form of scrums, sprints, and project management software.</p>
+                </div>
+                </div>
+            </div>
+
+            <div className="col-auto text-center animate-box">
+                <div className="services color-1">
+                <span className="icon">
+                </span>
+                <div className="desc">
+                    <h3>Cloud Computing </h3>
+                    <p>I am currently enrolled in a Cloud Computing Architecture class where we learn the basics of being an AWS Solutions Architect and will come out of the class with the knowledge to complete the Foundational Cloud Practioner and Associate Solutions Architect AWS Certifications. In my Capstone project, we used AWS for all of our backend and worked with AWS software engineers as our mentors. Within AWS, I personally used: 
+                        <ul>Lambda</ul>
+                        <ul>API Gateway</ul>
+                        <ul>CDK</ul>
+                        <ul>CloudFormation</ul>
+                        <ul>DynamoDB</ul>
+                        <ul>IoT Core</ul>
+                        <ul>Cognito Pools</ul>
+                        <ul>IAM</ul>
+                        <ul>Secrets Manager</ul>
+                    </p>
+                </div>
+                </div>
+            </div>
+
+            <div className="col-auto text-center animate-box">
+                <div className="services color-1">
+                <span className="icon">
+                </span>
+                <div className="desc">
+                    <h3>Agile Methodologies </h3>
+                    <p>From my Capstone project, software engineering class, and my co-op, I have worked with Agile Methodologies in the form of scrums, sprints, and project management software.</p>
+                </div>
+                </div>
+            </div>
+
+            <div className="col-auto text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
                 </span>
@@ -23,60 +78,41 @@ export default class Skills extends Component {
                 </div>
             </div>
 
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-auto text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
                 </span>
                 <div className="desc">
                     <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA.</p>
+                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA. This includes search and sorting algorithms, binary trees, greedy algorithms, divide-and-conquer algorithms, and dynamic programming.</p>
                 </div>
                 </div>
             </div>
 
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                <span className="icon">
-                </span>
-                <div className="desc">
-                    <h3>Programming Languages</h3>
-                    <p>I have used and am familiar with Python, React.js, Git, Java, C++, R, C, HTML5, CSS, MATLAB, x86 Assembly.</p>
-                </div>
-                </div>
-            </div>
-
-            <div className="col-md-4 text-center animate-box">
+        
+            <div className="col-auto text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
                 </span>
                 <div className="desc">
                     <h3>Version Control </h3>
-                    <p>I frequently use Git as version control for both my personal and team projects with GitHub being the hosting platform.</p>
+                    <p>I frequently use Git as version control for both my personal and team projects with GitHub being the hosting platform. I have used GitHub Actions for CI/CD.</p>
                 </div>
                 </div>
             </div>
 
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-auto text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
                 </span>
                 <div className="desc">
                     <h3>Software Engineering Lifecycle </h3>
-                    <p>From my software engineering class, I am familiar with requirements elicitation, design, planning, implementation, and testing with JUnit.</p>
+                    <p>From my Capstone project and software engineering class, I am familiar with requirements elicitation, design, planning, implementation, and testing with JUnit.</p>
                 </div>
                 </div>
             </div>
 
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                <span className="icon">
-                </span>
-                <div className="desc">
-                    <h3>Agile Methodologies </h3>
-                    <p>From my software engineering class and my co-op, I have worked with Agile Methodologies in the form of scrums, sprints, and project management software.</p>
-                </div>
-                </div>
-            </div>
+            
             </div>
         </div>
         </section>

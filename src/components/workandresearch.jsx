@@ -15,6 +15,30 @@ export default class Workandresearch extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="workandresearch-centered">
+
+                <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
+                    <div className="workandresearch-entry-inner">
+                      <div className="workandresearch-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="workandresearch-label">
+                        <h2>Internship at Windstream Communications <span>May 2021-Aug 2021</span></h2>
+                        <p>
+                          Over Summer 2021, I completed my internship at Windstream Communications in the IP Engineering department under the tools
+                          and automation team. I had the opportunity to work on automation that directly helped the 
+                          engineers I worked with on a daily basis, as well as a leadership project in which I was able to 
+                          research and start development on automation and pitch the ideas to Windstream executives. Some of the 
+                          highlights from the summer include:
+                          <li>Developed Python script to alert and create a JIRA ticket when a Windstream serviced market fell below an available IP threshold, eliminating the possibility of a stale market</li>
+                          <li>Developed Python script to web scrape IP metrics for all Windstream markets and store in InfluxDB</li>
+                          <li>Visualized overall summary and individual IP metrics for all Windstream markets using Grafana</li>
+                          <li>Developed Python script to compile a list of the CIDR representation of free IP space available to be distributed to other markets</li>
+                          <li>Researched and initiated automation projects that were pitched to Windstream executives to continue development on</li>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  
                   <article className="workandresearch-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="workandresearch-entry-inner">
                       <div className="workandresearch-icon color-2">
@@ -22,7 +46,7 @@ export default class Workandresearch extends Component {
                       </div>
                       <div className="workandresearch-label">
                         <h2>Co-op at Itron, Inc. <span>Jan 2019-Aug 2020</span></h2>
-                        <p>I recently completed my 3-semester co-op at Itron working in the Product Management Department but under the role of Networking and Product Management Engineering. Some of my highlights over the
+                        <p>I completed my 3-semester co-op at Itron working in the Product Management Department but under the role of Networking and Product Management Engineering. Some of my highlights over the
                           3 rotations include:
                           <li>Developed an integration between Amazon Alexa and Itron meters through a Raspberry Pi using Python and C as the programming languages and Zigbee and Bluetooth as the wireless protocols.</li>
                           <li>Managed all cloud devices and delegated on-site engineers to fix connectivity issues on pilot program to place ~120 Zigbee routers in homes to transmit data to cloud</li>
