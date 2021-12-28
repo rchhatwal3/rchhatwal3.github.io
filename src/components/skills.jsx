@@ -41,7 +41,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Cloud Computing </h3>
-                    <p>I am currently enrolled in a Cloud Computing Architecture class where we learn the basics of being an AWS Solutions Architect and will come out of the class with the knowledge 
+                    <p>I have completed a Cloud Computing Architecture class where we learned the basics of being an AWS Solutions Architect and have come out of the class with the knowledge 
                         to complete the Foundational Cloud Practioner and Associate Solutions Architect AWS Certifications. In my Capstone project, we used AWS for all of our backend and worked with 
                         AWS software engineers as our mentors. Within AWS, I personally used: Lambda, API Gateway, CDK, CloudFormation, DyanmoDB, IoT Core,
                         Cognito Pools, IAM, Secrets Manager.

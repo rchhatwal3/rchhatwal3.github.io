@@ -16,6 +16,20 @@ export default class Workandresearch extends Component {
               <div className="col-md-12">
                 <div className="workandresearch-centered">
 
+                <article className="workandresearch-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="workandresearch-entry-inner">
+                      <div className="workandresearch-icon color-2">
+                        <i className="icon-book2" />
+                      </div>
+                      <div className="workandresearch-label">
+                        <h2>Graduated from Clemson Unversity <span>Dec 2021</span></h2>
+                        <p>After 4.5 years, I have officially become an alumni of Clemson Unversity. I have graduated with a 3.65 GPA 
+                          majoring in Computer Science with a minor in Mathematical Sciences.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
                 <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="workandresearch-entry-inner">
                       <div className="workandresearch-icon color-2">
@@ -64,7 +78,7 @@ export default class Workandresearch extends Component {
                         <i className="icon-lightbulb" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Injured Military Veteran Adaptive Sport and Paralympic Soccer Program Development <span>Jan 2018-Present</span></h2>
+                        <h2>Injured Military Veteran Adaptive Sport and Paralympic Soccer Program Development <span>Jan 2018-Dec 2021</span></h2>
                         <p> I have been a part of <a href="http://clemsonparalympicsoccer.org/" target="_blank" rel="noopener noreferrer"> Clemson Paralympic Soccer </a> for most of my
                         time at Clemson, where the focus is on both introducing injured military veterans to adaptive sports as well as working directly with the US Paralympic Soccer Team.<br></br>
                         With the veterans, we are on our 5th year of a grant that provides us the ability to host 3-4 day camps throughout the year all over the nation that will bring in the veterans together.
@@ -78,28 +92,13 @@ export default class Workandresearch extends Component {
                     </div>
                   </article>
 
-                  <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
-                    <div className="workandresearch-entry-inner">
-                      <div className="workandresearch-icon color-2">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="workandresearch-label">
-                        <h2>Soccer Referee for US Soccer Federation<span>Aug 2013-Present</span></h2>
-                        <p>I have been a soccer referee since I was 13 years old. Since I played soccer at the time, it made sense to me to get into refereeing as well to be part of a different aspect of the game.
-                          Throughout my time as a referee, I have been in charge of player safety, enforcing the Laws of the Game, travelling across the country, as well as maintain my physical fitness to keep up with the
-                          ever increasing speed of play.  I've learned many life skills from being a referee from a young age such as person management, teamwork between my referee crew, as well as confidence from having to
-                          stick with my decision with at least the other team and parents disagreeing with me. </p>
-                      </div>
-                    </div>
-                  </article>
-
                   <article className="workandresearch-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="workandresearch-entry-inner">
                       <div className="workandresearch-icon color-2">
                         <i className="icon-book2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Switched to Computer Science <span>Aug 2019-Present</span></h2>
+                        <h2>Switched to Computer Science <span>Aug 2019-Dec 2021</span></h2>
                         <p>I eventually made the complete major switch from Computer Engineering to Computer Science with a minor in Mathematical Sciences. I discovered through my classes and some of the projects I worked on at
                           Itron that I was more interested in working with software development for the future, and changing majors would allow me to do that.
                         </p>
@@ -127,7 +126,7 @@ export default class Workandresearch extends Component {
                         <i className="icon-book2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Started Undergraduate at Clemson University as Computer Engineering<span>Aug 2017-Aug 2019</span></h2>
+                        <h2>Started Undergraduate at Clemson University as Computer Engineering <span>Aug 2017-Aug 2019</span></h2>
                         <p>I started off at Clemson as a Computer Engineering major with a minor is Mathematical Sciences and Computer Science.  This is where I learned mostly about computer hardware as well as low-level
                           programming in C and Assembly. I also completed my first two rotations at Itron as a Computer Engineering Major.
                         </p>
@@ -141,13 +140,30 @@ export default class Workandresearch extends Component {
                         <i className="icon-book2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Completed 45 hours of Dual Enrollment <span>May 2017</span></h2>
+                        <h2>Completed 45 hours of Dual Enrollment <span>August 2014-May 2017</span></h2>
                         <p>I graduated from Brashier Middle College Charter High School while completing 45 college credit hours due to dual enrollment classes.  I played varsity soccer all 4 years I was there and I graduated
                           Summa Cum Laude.
                         </p>
                       </div>
                     </div>
                   </article>
+
+
+                  <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
+                    <div className="workandresearch-entry-inner">
+                      <div className="workandresearch-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="workandresearch-label">
+                        <h2>Soccer Referee for US Soccer Federation <span>Aug 2013-Present</span></h2>
+                        <p>I have been a soccer referee since I was 13 years old. Since I played soccer at the time, it made sense to me to get into refereeing as well to be part of a different aspect of the game.
+                          Throughout my time as a referee, I have been in charge of player safety, enforcing the Laws of the Game, travelling across the country, as well as maintain my physical fitness to keep up with the
+                          ever increasing speed of play.  I've learned many life skills from being a referee from a young age such as person management, teamwork between my referee crew, as well as confidence from having to
+                          stick with my decision with at least the other team and parents disagreeing with me. </p>
+                      </div>
+                    </div>
+                  </article>
+
                   <article className="workandresearch-entry begin animate-box" data-animate-effect="fadeInBottom">
                     <div className="workandresearch-entry-inner">
                       <div className="workandresearch-icon color-none">
