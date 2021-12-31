@@ -16,21 +16,35 @@ export default class Workandresearch extends Component {
               <div className="col-md-12">
                 <div className="workandresearch-centered">
 
-                <article className="workandresearch-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="workandresearch-entry-inner">
                       <div className="workandresearch-icon color-2">
-                        <i className="icon-book2" />
+                        <i className="icon-pen2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Graduated from Clemson Unversity <span>Dec 2021</span></h2>
-                        <p>After 4.5 years, I have officially become an alumni of Clemson Unversity. I have graduated with a 3.65 GPA 
-                          majoring in Computer Science with a minor in Mathematical Sciences.
+                        <h2>Ally Financial <span>Jan 2022 - Present</span></h2>
+                        <p>I've accepted a position with Ally Financial in their Technology Early Talent Program as an 
+                          Enterprise Technology Operations Engineer. 
                         </p>
                       </div>
                     </div>
                   </article>
+                  
+                  <article className="workandresearch-entry animate-box" data-animate-effect="fadeInLeft">
+                      <div className="workandresearch-entry-inner">
+                        <div className="workandresearch-icon color-2">
+                          <i className="icon-book2" />
+                        </div>
+                        <div className="workandresearch-label">
+                          <h2>Graduated from Clemson Unversity <span>Dec 2021</span></h2>
+                          <p>After 4.5 years, I have officially become an alumni of Clemson Unversity. I have graduated with a 3.65 GPA 
+                            majoring in Computer Science with a minor in Mathematical Sciences.
+                          </p>
+                        </div>
+                      </div>
+                    </article>
 
-                <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
+                  <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="workandresearch-entry-inner">
                       <div className="workandresearch-icon color-2">
                         <i className="icon-pen2" />
