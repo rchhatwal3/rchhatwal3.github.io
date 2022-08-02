@@ -17,10 +17,10 @@ export default class Projects extends Component {
 						<div className="project" style={{backgroundImage: 'url(images/project/reactlogo.jpg)'}}>
 							<div className="desc">
 								<div className="con">
-									<h3><a href="https://github.com/rchhatwal3/Website-Portfolio" target="_blank" ref="noopener noreferrer">This Website</a></h3>
+									<h3><a href="https://github.com/rchhatwal3/Website-Portfolio" target="_blank" rel="noopener noreferrer">This Website</a></h3>
 									<span>This Website is going to be used as a representation of my portfolio. I used React.js, HTML5, and CSS to complete this.</span>
 									<p className="icon">
-										<span><a href="https://github.com/rchhatwal3/Website-Portfolio" target="_blank" ref="noopener noreferrer"><i className="icon-share3" /></a></span>
+										<span><a href="https://github.com/rchhatwal3/Website-Portfolio" target="_blank" rel="noopener noreferrer"><i className="icon-share3" /></a></span>
 									</p>
 								</div>
 							</div>
