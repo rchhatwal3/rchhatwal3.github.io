@@ -7,6 +7,7 @@ import Skills from './components/skills.jsx'
 import WorkandResearch from './components/workandresearch.jsx'
 import Projects from './components/projects.jsx'
 import Certifications from './components/certifications.jsx'
+import Footer from './components/footer.jsx'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Projects></Projects>
 					<WorkandResearch></WorkandResearch>
           <Certifications></Certifications>
+          <Footer></Footer>
           	</div>
       	</div>
       </div>
