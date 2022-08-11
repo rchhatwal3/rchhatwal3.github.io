@@ -19,7 +19,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Programming Languages</h3>
-                    <p>I have used and am familiar with Python, C++, C, Git, Java, React.js, YAML, JSON, R, HTML5, CSS, MATLAB, x86 Assembly.</p>
+                    <p>I have used and am familiar with Python, C++, C, Java, React.js, YAML, JSON, R, HTML5, CSS, MATLAB, x86 Assembly.</p>
                 </div>
                 </div>
             </div>
@@ -29,8 +29,10 @@ export default class Skills extends Component {
                 <span className="icon">
                 </span>
                 <div className="desc">
-                    <h3>Agile Methodologies </h3>
-                    <p>From my Capstone project, software engineering class, and my co-op, I have worked with Agile Methodologies in the form of scrums, sprints, and project management software.</p>
+                    <h3>Software Engineering </h3>
+                    <p>From my Capstone project, software engineering class, and my co-op, I have worked with Agile Methodologies in the form of scrums, sprints, and project management software as well as 
+                        I am familiar with requirements elicitation, design, planning, implementation, and testing.
+                    </p>
                 </div>
                 </div>
             </div>
@@ -46,17 +48,6 @@ export default class Skills extends Component {
                         AWS software engineers as our mentors. Within AWS, I personally used: Lambda, API Gateway, CDK, CloudFormation, DyanmoDB, IoT Core,
                         Cognito Pools, IAM, Secrets Manager.
                     </p>
-                </div>
-                </div>
-            </div>
-
-            <div className="col-auto text-center animate-box">
-                <div className="services color-1">
-                <span className="icon">
-                </span>
-                <div className="desc">
-                    <h3>Agile Methodologies </h3>
-                    <p>From my Capstone project, software engineering class, and my co-op, I have worked with Agile Methodologies in the form of scrums, sprints, and project management software.</p>
                 </div>
                 </div>
             </div>
@@ -100,8 +91,9 @@ export default class Skills extends Component {
                 <span className="icon">
                 </span>
                 <div className="desc">
-                    <h3>Software Engineering Lifecycle </h3>
-                    <p>From my Capstone project and software engineering class, I am familiar with requirements elicitation, design, planning, implementation, and testing with JUnit.</p>
+                    <h3>Tools</h3>
+                    <p>From my education and work experience, I have become familiar with many tools such as Terraform, Git, Ansible, VSCode, SQLite3, Oracle SQL, Splunk, Datadog, Jira, Confluence, and many 
+                        repository platforms like Bitbucket, Gitlab, GitHub, and Replit.</p>
                 </div>
                 </div>
             </div>
