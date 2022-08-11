@@ -23,8 +23,31 @@ export default class Workandresearch extends Component {
                       </div>
                       <div className="workandresearch-label">
                         <h2>Ally Financial <span>Jan 2022 - Present</span></h2>
-                        <p>I've accepted a position with Ally Financial in their Technology Early Talent Program as an 
-                          Enterprise Technology Operations Engineer. 
+                        <p>I have been working at Ally Financial as a cloud operations engineer in their Early Talent Program. We started off the program with a bootcamp 
+                          where we had a capstone project. In that capstone, my team and I built a project management system hosted in AWS using Terraform. In the project, I:
+                          <li>worked on most of the backend and Terraform</li>
+                          <li>created a system design using DynamoDB, Cognito, S3, CloudFront, Lambda, and API Gateway</li>
+                          <li>debugged and fixed HTTPS headers to eliminate CORS errors</li>
+                          <br></br>
+                          Now that I am on my actual team, I have been focused on different projects relating to automation, monitoring, VOC reporting, and IAM provisioning.
+                          <br></br>
+                          <br></br>
+                          For automation, I created an automated health check script for the databases that the deposit teams use. This is an Ansible script that will check different properties of the 
+                          Oracle DBs such as TablespaceUsage and InvalidIndex.
+                          <br></br>
+                          <br></br>
+                          For monitoring, I have worked in Datadog and Splunk to create monitors and alerts for our production instances that have moved to AWS. These alerts and monitors have been used to 
+                          help triage different incidents.
+                          <br></br>
+                          <br></br>
+                          We have a tool to collect VOCs (Voice of Customers). I inherited this code from a peer who left the company and needed to understand the code to fix what was broken. I needed to finish 
+                          implementing our sentiment analysis algorithm as well as create alerts that would send emails to the correct people.
+                          <br></br>
+                          <br></br>
+                          For IAM provisioning, I am now in charge of facilitating the provisioning of IAM roles to different app teams with their cloud applications. This involves adding their roles to our Terraform 
+                          module as well as implementing the principle of least privilege. This requires strict consulting and requirements elicitation with the app teams to accurately provide the correct permissions 
+                          in our production cloud environment.
+                    
                         </p>
                       </div>
                     </div>
