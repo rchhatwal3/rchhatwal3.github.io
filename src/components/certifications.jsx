@@ -49,6 +49,19 @@ export default class Certifications extends Component {
                     </div>
                     </div>
                 </div>
+
+                <div className="col-auto text-center animate-box">
+                    <div className="services color-1">
+                    <span className="icon">
+                        <i className="icon-book" />
+                    </span>
+                    <div className="desc">
+                        <h3><a href="https://aws.amazon.com/certification/certified-developer-associate/" target="_blank" rel="noreferrer">In Progress - AWS Certified Developer Associate</a></h3>
+                        <p>Planning to be complete by the end of 2022.</p>
+                    </div>
+                    </div>
+                </div>
+
                 </div>
             </div>
             </section>
