@@ -73,13 +73,15 @@ export default class Projects extends Component {
 					</div>
 					
 					<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-						<div className="project" style={{backgroundImage: 'url(images/project/gbnprotocol.jpg)'}}>
+						<div className="project" style={{backgroundImage: 'url(images/project/discord.jpg)'}}>
 							<div className="desc">
 								<div className="con">
-									<h3><a href="href=https://github.com/rchhatwal3/GBN-Protocol-Implementation" target="_blank" rel="noopener noreferrer">Go-Back-N Protocol Implementation</a></h3>
-									<span>This project was written in Python 3.5.2 for my Networks Engineering class which was to implement the Go-Back-N (GBN) Protocol for Reliable Data Transfer.</span>
+									<h3><a href="href=https://replit.com/@rchhatwal3/DiscordBot#main.py" target="_blank" rel="noopener noreferrer">Discord Bot</a></h3>
+									<span>I created this Discord bot to originally act as a Wordle leaderboard for my friends and I. Everyday we would post our scores and I wanted to create 
+										more of a game out of it. I used the Discord Python API to create the bot. I also used SQLite3 to create the Leaderboard. I also created the ability for the bot
+										to send emails and DM's to prank some of my friends. This bot is hosted on Replit and uses Uptime Robot to ping the Replit server to keep the bot on 24/7.</span>
 									<p className="icon">
-										<span><a href="https://github.com/rchhatwal3/GBN-Protocol-Implementation" target="_blank" rel="noopener noreferrer"><i className="icon-share3" /></a></span>
+										<span><a href="https://replit.com/@rchhatwal3/DiscordBot#main.py" target="_blank" rel="noopener noreferrer"><i className="icon-share3" /></a></span>
 									</p>
 								</div>
 							</div>
