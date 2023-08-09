@@ -2,6 +2,8 @@ This project is going to serve as my website portfolio.  I used Create-React-App
 
 Below are some general information about Create React App
 
+Once pushed to master: npm run build -> npm run deploy -> update website name in repo settings
+
 
 # Getting Started with Create React App
 

@@ -22,8 +22,46 @@ export default class Workandresearch extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Ally Financial <span>Jan 2022 - Present</span></h2>
-                        <p>I have been working at Ally Financial as a cloud operations engineer in their Early Talent Program. We started off the program with a bootcamp 
+                        <h2>Ally Financial - Site Reliability Engineer<span>June 2022 - Present</span></h2>
+                        <p>I was presented an opportunity to switch to a Site Reliability Engineering team and I jumped on it. I started off working on automation and templates that could be used within the 
+                          entire company and later switched to working as an SRE with a group of app teams as well as helped create an SRE learning community. These are some of my highlights:
+                         
+                          <li>Currently developing Python script to allow for automatic code deployments to reduce deployment time by ~1hr each deployment.</li>
+                          <li>Developed Python script and Terraform code to template monitoring services based on industry recommendations for all application teams to use.</li>
+                          <li>Pioneered a SplunkDB Connect connection with our MySQL Aurora databases to allow use to further monitor our instances using Splunk.</li>
+                          <li>Update engine version and clean-up RDS instances to eliminate ~$60,000 per year in cost.</li>
+                          <li>Created a monitoring framework for Snowflake errors with AWS using SNS, lambda, and Python.</li>
+                          <li>Championed an enterprise-wide Site Reliability Engineering community of practice.</li>
+                          <li>Created template for RDS monitoring based on DBA recommendations using terraform that all application teams can use.</li>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  
+                  <article className="workandresearch-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="workandresearch-entry-inner">
+                      <div className="workandresearch-icon color-2">
+                        <i className="icon-book2" />
+                      </div>
+                      <div className="workandresearch-label">
+                        <h2>Started Master's program at Georgia Institute of Technology <span>Jan 2023</span></h2>
+                        <p>
+                          I have started at Georgia Institute of Technology in the OMSCS program to get my Master's of Computer Science degree.
+                          I will be specializing in Computing Systems and have a planned graduation of 2026.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  
+
+                  <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
+                    <div className="workandresearch-entry-inner">
+                      <div className="workandresearch-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="workandresearch-label">
+                        <h2>Ally Financial - Bank Production Engineer<span>Jan 2022 - Jun 2022</span></h2>
+                        <p>I started at Ally Financial as a production engineer in their Early Talent Program. We started off the program with a bootcamp 
                           where we had a capstone project. In that capstone, my team and I built a project management system hosted in AWS using Terraform. In the project, I:
                           <li>worked on most of the backend and Terraform</li>
                           <li>created a system design using DynamoDB, Cognito, S3, CloudFront, Lambda, and API Gateway</li>
