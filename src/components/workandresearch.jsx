@@ -23,7 +23,7 @@ export default class Workandresearch extends Component {
                     </div>
                     <div className="workandresearch-label">
                       <h2>JP Morgan Chase - Site Reliability Engineer III<span>Dec 2023 - Present</span></h2>
-                      <div> I have been part of JP Morgan Chase since December 2023 in the Wholsale Lending space. I have been a Site Reliability Engineer III for one of the loan applicaation teams with some of my highlights below:
+                      <div> I have been part of JP Morgan Chase since December 2023 in the Wholesale Lending space. I have been a Site Reliability Engineer III for one of the loan application teams with some of my highlights below:
                         <ul>
                           <li>Maintained application SLOs above 99.8% uptime</li>
                           <li>Standardized incident management practices and built an escalation matrix to streamline response and reduce MTTR to under 30 minutes.</li>
