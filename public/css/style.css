@@ -98,10 +98,10 @@ figure {
     height: 150px;
     margin: 0 auto;
     margin-bottom: 30px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
   #colorlib-aside .email {
     display: block;
     font-size: 12px;}
@@ -123,9 +123,11 @@ figure {
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
-    width: 100%; }
+    width: 100%;
+    overflow: visible; }
     #colorlib-aside #colorlib-main-menu .collapse {
-      display: block !important; }
+      display: block !important;
+      overflow: visible; }
     #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
       margin: 0;
@@ -188,6 +190,90 @@ figure {
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
             transform: scaleX(1); }
+        #colorlib-aside #colorlib-main-menu ul li.donate-dropdown {
+          position: relative;
+          overflow: visible; }
+          #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-submenu:hover {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+            pointer-events: auto; }
+          #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-toggle {
+            cursor: pointer; }
+          #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-submenu {
+            position: absolute;
+            left: 0;
+            top: calc(100% + 5px);
+            width: 100%;
+            background: #fff;
+            min-width: 180px;
+            padding: 10px 0;
+            margin: 0;
+            list-style: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transform: translateY(-10px);
+            -moz-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+            -o-transform: translateY(-10px);
+            transform: translateY(-10px);
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            z-index: 9999;
+            pointer-events: none; }
+            #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-submenu li {
+              margin: 0;
+              padding: 0; }
+              #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-submenu li a {
+                display: block;
+                padding: 8px 20px;
+                color: rgba(0, 0, 0, 0.7);
+                text-decoration: none;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s;
+                cursor: pointer;
+                pointer-events: auto; }
+                #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-submenu li a:hover {
+                  background-color: #f5f5f5;
+                  color: #2c98f0; }
+                #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-submenu li a:after {
+                  display: none; }
+          #colorlib-aside #colorlib-main-menu ul li.donate-dropdown:hover .donate-submenu {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+            pointer-events: auto; }
+          @media screen and (max-width: 768px) {
+            #colorlib-aside #colorlib-main-menu ul li.donate-dropdown .donate-submenu {
+              position: static;
+              left: auto;
+              top: auto;
+              opacity: 1;
+              visibility: visible;
+              -webkit-transform: none;
+              -moz-transform: none;
+              -ms-transform: none;
+              -o-transform: none;
+              transform: none;
+              box-shadow: none;
+              margin-top: 5px;
+              padding: 5px 0; } }
   #colorlib-aside .colorlib-footer {
     font-size: 15px;
     text-align: center;
@@ -216,6 +302,15 @@ figure {
             text-decoration: none;
             outline: none;
             color: #2c98f0; }
+  #colorlib-aside #colorlib-main-menu ul li a .icon-strava {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+    font-size: large; }
+    #colorlib-aside #colorlib-main-menu ul li a:hover .icon-strava {
+      fill: currentColor; }
 
 .container-wrap {
   max-width: 1170px;
@@ -1101,15 +1196,15 @@ body.offcanvas {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline; }
-    .colorlib-social li a {
-      font-size: 22px;
-      color: #000;
-      padding: 10px;
-      display: -moz-inline-stack;
-      display: inline-block;
-      zoom: 1;
-      *display: inline;
+    /* *display: inline; */ }
+  .colorlib-social li a {
+    font-size: 22px;
+    color: #000;
+    padding: 10px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    /* *display: inline; */
       -webkit-border-radius: 7px;
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
@@ -1325,7 +1420,7 @@ body.offcanvas {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    /* *display: inline; */
     width: 30px;
     height: 2px;
     color: #000;
