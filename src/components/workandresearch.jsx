@@ -16,24 +16,64 @@ export default class Workandresearch extends Component {
               <div className="col-md-12">
                 <div className="workandresearch-centered">
 
+                <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
+                  <div className="workandresearch-entry-inner">
+                    <div className="workandresearch-icon color-2">
+                      <i className="icon-pen2" />
+                    </div>
+                    <div className="workandresearch-label">
+                      <h2>JP Morgan Chase - Site Reliability Engineer III<span>Dec 2023 - Present</span></h2>
+                      <div> I have been part of JP Morgan Chase since December 2023 in the Wholsale Lending space. I have been a Site Reliability Engineer III for one of the loan applicaation teams with some of my highlights below:
+                        <ul>
+                          <li>Maintained application SLOs above 99.8% uptime</li>
+                          <li>Standardized incident management practices and built an escalation matrix to streamline response and reduce MTTR to under 30 minutes.</li>
+                          <li>Led SR/DR testing to validate recovery times of ~1.5 hours, strengthening disaster recovery readiness.</li>
+                          <li>Helped drive application cost reduction savings of $561K against a $608K target for 2025.</li>
+                          <li>Consolidated 88 deployment pipelines into 2, cutting deployment time by 4+ hours per release.</li>
+                          <li>Migrated to Dynatrace, decommissioning legacy AppDynamics/APICA monitoring.</li>
+                          <li>Built unified Grafana dashboards aggregating metrics from APICA, Kafka, DB, and Kubernetes.</li>
+                          <li>Implemented infrastructure automation and Just-In-Time access to reduce privileged access events from 26 per year to zero.</li>
+                          <li>Improved SRE coverage from 8x5 → 16x5 through cross-training and documentation</li>
+                          <li>Reduced monthly Kubernetes pod cost for key apps from $12.8K → $4.5K, increasing resource utilization from 29% → 62%</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article className="workandresearch-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="workandresearch-entry-inner">
+                      <div className="workandresearch-icon color-2">
+                        <i className="icon-book2" />
+                      </div>
+                      <div className="workandresearch-label">
+                        <h2>Graduated Master's program at Georgia Institute of Technology <span>Aug 2025</span></h2>
+                        <p>
+                          I have graduated from the Georiga Tech OMSCS program with a Master's of Science in Commputer Science specializing in Computing Systems.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
                   <article className="workandresearch-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="workandresearch-entry-inner">
                       <div className="workandresearch-icon color-2">
                         <i className="icon-pen2" />
                       </div>
                       <div className="workandresearch-label">
-                        <h2>Ally Financial - Site Reliability Engineer<span>June 2022 - Present</span></h2>
-                        <p>I was presented an opportunity to switch to a Site Reliability Engineering team and I jumped on it. I started off working on automation and templates that could be used within the 
+                        <h2>Ally Financial - Site Reliability Engineer<span>June 2022 - Dec 2023</span></h2>
+                        <div>I was presented an opportunity to switch to a Site Reliability Engineering team and I jumped on it. I started off working on automation and templates that could be used within the 
                           entire company and later switched to working as an SRE with a group of app teams as well as helped create an SRE learning community. These are some of my highlights:
-                         
-                          <li>Currently developing Python script to allow for automatic code deployments to reduce deployment time by ~1hr each deployment.</li>
-                          <li>Developed Python script and Terraform code to template monitoring services based on industry recommendations for all application teams to use.</li>
-                          <li>Pioneered a SplunkDB Connect connection with our MySQL Aurora databases to allow use to further monitor our instances using Splunk.</li>
-                          <li>Update engine version and clean-up RDS instances to eliminate ~$60,000 per year in cost.</li>
-                          <li>Created a monitoring framework for Snowflake errors with AWS using SNS, lambda, and Python.</li>
-                          <li>Championed an enterprise-wide Site Reliability Engineering community of practice.</li>
-                          <li>Created template for RDS monitoring based on DBA recommendations using terraform that all application teams can use.</li>
-                        </p>
+                          <ul>
+                            <li>Developed Python script to allow for automatic code deployments to reduce deployment time by ~1hr each deployment.</li>
+                            <li>Developed Python script and Terraform code to template monitoring services based on industry recommendations for all application teams to use.</li>
+                            <li>Pioneered a SplunkDB Connect connection with our MySQL Aurora databases to allow use to further monitor our instances using Splunk.</li>
+                            <li>Update engine version and clean-up RDS instances to eliminate ~$60,000 per year in cost.</li>
+                            <li>Created a monitoring framework for Snowflake errors with AWS using SNS, lambda, and Python.</li>
+                            <li>Championed an enterprise-wide Site Reliability Engineering community of practice.</li>
+                            <li>Created template for RDS monitoring based on DBA recommendations using terraform that all application teams can use.</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </article>
@@ -61,11 +101,13 @@ export default class Workandresearch extends Component {
                       </div>
                       <div className="workandresearch-label">
                         <h2>Ally Financial - Bank Production Engineer<span>Jan 2022 - Jun 2022</span></h2>
-                        <p>I started at Ally Financial as a production engineer in their Early Talent Program. We started off the program with a bootcamp 
+                        <div>I started at Ally Financial as a production engineer in their Early Talent Program. We started off the program with a bootcamp 
                           where we had a capstone project. In that capstone, my team and I built a project management system hosted in AWS using Terraform. In the project, I:
-                          <li>worked on most of the backend and Terraform</li>
-                          <li>created a system design using DynamoDB, Cognito, S3, CloudFront, Lambda, and API Gateway</li>
-                          <li>debugged and fixed HTTPS headers to eliminate CORS errors</li>
+                          <ul> 
+                            <li>worked on most of the backend and Terraform</li>
+                            <li>created a system design using DynamoDB, Cognito, S3, CloudFront, Lambda, and API Gateway</li>
+                            <li>debugged and fixed HTTPS headers to eliminate CORS errors</li>
+                          </ul>
                           <br></br>
                           Now that I am on my actual team, I have been focused on different projects relating to automation, monitoring, VOC reporting, and IAM provisioning.
                           <br></br>
@@ -86,7 +128,7 @@ export default class Workandresearch extends Component {
                           module as well as implementing the principle of least privilege. This requires strict consulting and requirements elicitation with the app teams to accurately provide the correct permissions 
                           in our production cloud environment.
                     
-                        </p>
+                        </div>
                       </div>
                     </div>
                   </article>
@@ -112,18 +154,20 @@ export default class Workandresearch extends Component {
                       </div>
                       <div className="workandresearch-label">
                         <h2>Internship at Windstream Communications <span>May 2021-Aug 2021</span></h2>
-                        <p>
+                        <div>
                           Over Summer 2021, I completed my internship at Windstream Communications in the IP Engineering department under the tools
                           and automation team. I had the opportunity to work on automation that directly helped the 
                           engineers I worked with on a daily basis, as well as a leadership project in which I was able to 
                           research and start development on automation and pitch the ideas to Windstream executives. Some of the 
                           highlights from the summer include:
-                          <li>Developed Python script to alert and create a JIRA ticket when a Windstream serviced market fell below an available IP threshold, eliminating the possibility of a stale market</li>
-                          <li>Developed Python script to web scrape IP metrics for all Windstream markets and store in InfluxDB</li>
-                          <li>Visualized overall summary and individual IP metrics for all Windstream markets using Grafana</li>
-                          <li>Developed Python script to compile a list of the CIDR representation of free IP space available to be distributed to other markets</li>
-                          <li>Researched and initiated automation projects that were pitched to Windstream executives to continue development on</li>
-                        </p>
+                          <ul>
+                            <li>Developed Python script to alert and create a JIRA ticket when a Windstream serviced market fell below an available IP threshold, eliminating the possibility of a stale market</li>
+                            <li>Developed Python script to web scrape IP metrics for all Windstream markets and store in InfluxDB</li>
+                            <li>Visualized overall summary and individual IP metrics for all Windstream markets using Grafana</li>
+                            <li>Developed Python script to compile a list of the CIDR representation of free IP space available to be distributed to other markets</li>
+                            <li>Researched and initiated automation projects that were pitched to Windstream executives to continue development on</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </article>
@@ -135,14 +179,16 @@ export default class Workandresearch extends Component {
                       </div>
                       <div className="workandresearch-label">
                         <h2>Co-op at Itron, Inc. <span>Jan 2019-Aug 2020</span></h2>
-                        <p>I completed my 3-semester co-op at Itron working in the Product Management Department but under the role of Networking and Product Management Engineering. Some of my highlights over the
+                        <div>I completed my 3-semester co-op at Itron working in the Product Management Department but under the role of Networking and Product Management Engineering. Some of my highlights over the
                           3 rotations include:
-                          <li>Developed an integration between Amazon Alexa and Itron meters through a Raspberry Pi using Python and C as the programming languages and Zigbee and Bluetooth as the wireless protocols.</li>
-                          <li>Managed all cloud devices and delegated on-site engineers to fix connectivity issues on pilot program to place ~120 Zigbee routers in homes to transmit data to cloud</li>
-                          <li>Put in charge of designing and prototyping hardware to allow ConEd NY to comply with new grid safety and National Electric Code protocols; created a technical document on
-                            installation, parts, and suppliers</li>
-                          <li>Travelled to Canada to help analyze and fix manufacturing issues on ~140,000 new meters to be deployed</li>
-                        </p>
+                          <ul>
+                            <li>Developed an integration between Amazon Alexa and Itron meters through a Raspberry Pi using Python and C as the programming languages and Zigbee and Bluetooth as the wireless protocols.</li>
+                            <li>Managed all cloud devices and delegated on-site engineers to fix connectivity issues on pilot program to place ~120 Zigbee routers in homes to transmit data to cloud</li>
+                            <li>Put in charge of designing and prototyping hardware to allow ConEd NY to comply with new grid safety and National Electric Code protocols; created a technical document on
+                              installation, parts, and suppliers</li>
+                            <li>Travelled to Canada to help analyze and fix manufacturing issues on ~140,000 new meters to be deployed</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </article>
