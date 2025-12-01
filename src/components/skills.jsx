@@ -18,6 +18,35 @@ export default class Skills extends Component {
                 <span className="icon">
                 </span>
                 <div className="desc">
+                    <h3>Site Reliability Engineering</h3>
+                    <p>I amm extremely proficient in the roles and responsibilites that come with being a Site Reliability Engineer.</p>
+                    <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                        <li>Monitoring - Splunk, Datadog, Grafana, Dynatrace alerts and dashboards</li>
+                        <li>Incident Response - Created ROTA and incident response playbooks, all incident response within SLA</li>
+                        <li>FinOps - Implementing FinOps principles to reduce costs and improve efficiency in logs, infrastructure, and other resources</li>
+                        <li>Automaton/Reduce Toil - Created automation scripts to reduce toil and increase efficiency in the daily operations of the team</li>
+                        <li>Security - Onboard code security scanning with Snyk, implement security enhancements prior to deployment </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            
+            <div className="col-auto text-center animate-box">
+                <div className="services color-1">
+                <span className="icon">
+                </span>
+                <div className="desc">
+                    <h3>Public/Private Cloud Architecture</h3>
+                    <p>I am familiar with Kubernetes as a private cloud solution using Gaia Kubernetes Platform with my work at JP Morgan Chase and AWS as a public cloud solution for my work at Ally Financial and my undergraduate program.</p>
+                </div>
+                </div>
+            </div>
+            
+            <div className="col-auto text-center animate-box">
+                <div className="services color-1">
+                <span className="icon">
+                </span>
+                <div className="desc">
                     <h3>Programming Languages</h3>
                     <p>I have used and am familiar with Python, C++, C, Java, React.js, YAML, JSON, R, HTML5, CSS, MATLAB, x86 Assembly.</p>
                 </div>
@@ -69,7 +98,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA. This includes search and sorting algorithms, binary trees, greedy algorithms, divide-and-conquer algorithms, and dynamic programming.</p>
+                    <p>I have good grasp over fundamental concepts of DSA. This includes search and sorting algorithms, binary trees, greedy algorithms, divide-and-conquer algorithms, and dynamic programming.</p>
                 </div>
                 </div>
             </div>
