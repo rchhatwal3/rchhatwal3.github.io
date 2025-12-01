@@ -56,8 +56,8 @@ export default class Certifications extends Component {
                         <i className="icon-book" />
                     </span>
                     <div className="desc">
-                        <h3><a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/?ch=sec&sec=rmg&d=1" target="_blank" rel="noreferrer">In Progress - AWS Certified SysOps Administrator - Associate</a></h3>
-                        <p>Planning to be complete by the end of 2023.</p>
+                        <h3><a href="https://learn.finops.org/page/finops-certified-practitioner" target="_blank" rel="noreferrer">In Progress - FinOps Certified Practitioner</a></h3>
+                        <p>Planning to be complete by the end of 2025.</p>
                     </div>
                     </div>
                 </div>
