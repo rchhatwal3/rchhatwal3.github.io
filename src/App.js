@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './components/sidebar.jsx'
-import Introduction from './components/introduction.jsx'
+// import Introduction from './components/introduction.jsx'
 import About from './components/about.jsx'
 import Skills from './components/skills.jsx'
 import WorkandResearch from './components/workandresearch.jsx'
